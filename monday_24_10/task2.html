@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .grid-container {
+          display: grid;
+          grid-template-columns: auto auto auto auto;
+          grid-gap: 5px;
+          background-color: white;
+          padding: 20px;
+        }
+        .grid-container div {
+            background-color: yellow;
+            text-align: center;
+           padding: 20px;
+           margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <p>what do you think ?</p>
+    <div class="grid-container" >
+        <div class="grid">3</div>
+        <div class="grid">2</div>
+        <div class="grid">4</div>
+        <div class="grid">6</div>
+        <div class="grid">7</div>
+        <div class="grid">8</div>
+        <div class="grid">5</div>
+        <div class="grid">1</div>
+    </div>
+</body>
+</html>
