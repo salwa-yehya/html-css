@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont{
+            display: grid;
+            grid-gap: 5px;
+            width: 100%;
+            height: 700px;
+            grid-auto-rows: minmax(50px,auto);
+            grid-template-areas: 
+             "A A A A A A"
+             "B B B B C C"
+             "B B B B C C"
+             "B B B B C C"
+             "B B B B C C"
+             "D D D D D D"
+             "D D D D D D"
+            ;
+        }
+        .black{
+            background-color: black;
+            grid-area: A;
+        }
+        .yellow{
+            background-color: yellow;
+            grid-area: B;
+        }
+        .green{
+            background-color: green;
+            grid-area: C;
+        }
+        .blue{
+            background-color: blue;
+            grid-area: D;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="black">&nbsp;</div>
+        <div class="yellow">&nbsp;</div>
+        <div class="green">&nbsp;</div>
+        <div class="blue">&nbsp;</div>
+    </div>
+</body>
+</html>

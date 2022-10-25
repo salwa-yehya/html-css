@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .continer{
+            /* background-color: aquamarine; */
+            display: grid;
+            /* width: 100%; */
+            grid-template-columns: repeat(3,auto);
+            grid-template-rows: repeat(3 ,33%);
+            grid-column-gap:5px;
+            grid-row-gap: 5px;
+            gap: 5px;
+        }
+        img{
+         width: 100%;   
+         min-width: calc((100vw / 3));
+         height: 200px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="continer">
+        <div class="A A1"><img src="./1.jpg" alt="image"></div>
+        <div class="A A2 "><img src="./2.jpg" alt="image"></div>
+        <div class="A A3"><img src="./3.jpg" alt="image"></div>
+        <div class="A A4"><img src="./4.jpg" alt="image"></div>
+        <div class="A A5"><img src="./5.jpg" alt="image"></div>
+        <div class="A A6"><img src="./6.jpg" alt="image"></div>
+        <div class="A A7"><img src="./7.jpg" alt="image"></div>
+        <div class="A A8"><img src="./8.jpg" alt="image"></div>
+    </div>
+</body>
+</html>
