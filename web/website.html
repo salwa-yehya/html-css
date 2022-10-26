@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myweb</title>
+    <script src="https://kit.fontawesome.com/73358cb070.js" crossorigin="anonymous"></script>
+    <style>
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    /* background-color: aqua; */
+
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    display: flex;
+}
+.fa-utensils::before {
+   background-color: rgb(193, 173, 212);
+   border-radius: 8px;
+   
+}
+.title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2px;
+    margin-top: -2px;
+}
+#Del{
+    font-weight:700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.right{
+    font-size: 20px;
+
+}
+hr{
+    color: black;
+    height: 5px;
+    background-color: blueviolet;
+    margin: 5px 0px;
+}
+.img1{
+    width: 100%;
+    height: 400px;
+    padding: 10px 0px;
+}
+.para{
+    text-align: justify;
+}
+.chB{
+    display: grid;
+    grid-template-columns:repeat(2,auto);
+    grid-template-rows: repeat(6,auto);
+    padding: 10px 0px;
+   background-image: url(./s.jpg);
+   /* background-repeat: no-repeat; */
+   background-size: 200px;
+   background-position: left;
+}
+.img2{
+    border-radius: 70%;
+    width: 30% ;
+}
+.content{
+    display: flex;
+}
+.but{
+    
+    width: 100px;
+    height: 50px;
+    margin-top: 80px;
+    margin-left: 100px;
+    border: 3px solid blueviolet;
+    background-color: rgb(244, 158, 244 ,.5);
+}
+   </style>
+</head>
+<body>
+    <div class="container">
+       <div class="container2">
+        <div class="left">
+           <div><i class="fa-solid fa-utensils" style="font-size: 40px ;"></i></div>
+             <div class="title" > <p id="Del">Delicious</p>
+             <p>the best food blog in the web</p>
+             </div>
+          </div>
+          <div class="right">
+            <i class="fa-brands fa-facebook rig"></i>
+            <i class="fa-brands fa-twitter rig "></i>
+            <i class="fa-brands fa-instagram rig"></i>
+            <i class="fa-brands fa-google-plus-g rig"></i>
+            <i class="fa-solid fa-envelope rig"></i>
+        </div>
+    </div>
+    <br>
+    <hr>
+     <div>
+     <h2 style="padding: 5px 0px;">chocolate pizza</h2>
+     <p style="font-size: smaller;">Posted on 1/7/2022/Desserts</p>
+     <img class="img1" src="chpizza.jpg" alt="chocolate pizza img">
+     <p class="para" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas natus debitis eos exercitationem hic vitae qui dolor pariatur voluptatibus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas natus debitis eos exercitationem hic vitae qui dolor pariatur voluptatibus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas natus debitis eos exercitationem hic vitae qui dolor pariatur voluptatibus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas natus debitis eos exercitationem hic vitae qui dolor pariatur voluptatibus.</p>
+     <br>
+     <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas natus debitis eos exercitationem hic vitae qui dolor pariatur voluptatibus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas natus debitis eos exercitationem hic vitae qui dolor pariatur voluptatibus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas natus debitis eos exercitationem hic vitae qui dolor pariatur voluptatibus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas natus debitis eos exercitationem hic vitae qui dolor pariatur voluptatibus.</p>
+     <br>
+     <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas natus debitis eos exercitationem hic vitae qui dolor pariatur voluptatibus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas natus debitis eos exercitationem hic vitae qui dolor pariatur voluptatibus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas natus debitis eos exercitationem hic vitae qui dolor pariatur voluptatibus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas natus debitis eos exercitationem hic vitae qui dolor pariatur voluptatibus.</p>
+     </div>  
+     <div class="chB">
+        <div><input type="checkbox" value="1 1/2 cups milk">1 1/2 cups milk</div>
+        <div><input type="checkbox" value="1/2 mascarpone">1/2 mascarpone</div>
+        <div><input type="checkbox" value="1/2 tsb pink salt">1/2 tsb pink salt</div>
+        <div><input type="checkbox" value="1 lbs black mission figs">1 lbs black mission figs</div>
+        <div><input type="checkbox" value="1/2 cupbrown suger">1/2 cupbrown suger</div>
+        <div><input type="checkbox" value="2-4 tsb water">2-4 tsb water</div>
+        <div><input type="checkbox" value=" 1 1/2 cups heavy cream">1 1/2 cups heavy cream</div>
+        <div><input type="checkbox" value="1/3 granulated suger">1/3 granulated suger</div>
+        <div><input type="checkbox" value="3egg yolks">3egg yolks</div>
+        <div><input type="checkbox" value="1 lemon, juiced">1 lemon, juiced</div>
+        <div><input type="checkbox" value="2 tbsp butter">2 tbsp butter</div>
+        <div><input type="checkbox" value="1 cup houny rosted pecans roughlychapped">1 cup houny rosted pecans roughlychapped</div>
+       </div>
+       <hr>
+       <div class="content">
+        <div style="width: 40%;">
+        <img class="img2" src="./OIP (3).jpg" alt="chef">
+        <h2>Gordon Ramsay</h2>
+        <br>
+        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, repellat sit amet consectetur adipisicing elit</p>
+        </div>
+        <button class="but"> Share Recipe </button>
+        </div>
+       </div>
+        <div style="width: 100%; height: 100px";></div>
+    </div> 
+  
+</body>
+</html>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+    body{
      background: rgba(0, 0, 255,.2);
      width: 80%;
      margin:0 auto ;
@@ -17,24 +17,42 @@
         display: grid;
         grid-template-columns: repeat(3 ,auto);
         grid-template-rows: repeat(2 ,auto);
+        gap: 10px;
    }
    .b {
-   
+    padding: 10px 0px 0px 10px;
+    border: 1px solid white ;
+    background-color:white;
+    width: 230px;
+    height: 260px;
+   }
+
+   @media screen and (min-width: 414px) and (max-width: 896px){
+    body{
+        background-color: white;
+        /* margin: 0 auto; */
+        /* text-align: justify; */
+    }
+    .cont{
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
    }
     </style>
 </head>
 <body>
     <h1 >Media query demo</h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, quis. Dicta architecto saepe sint error ea quia, modi tempora maiores similique vero iste omnis aspernatur eligendi culpa voluptatem animi nam magni nostrum quis, repudiandae rem alias est nobis eum. Quia porro consequuntur assumenda inventore quo illo distinctio dolorum, repellat sed explicabo itaque voluptate aliquid soluta facere quos sapiente quod officiis laborum delectus facilis deserunt, similique numquam ex! Dolore sapiente et provident est rerum veritatis molestiae repellendus illum. Eos nihil quod natus sed maiores, suscipit ipsam quo adipisci! Itaque nostrum, illum libero atque ipsa enim maxime, debitis fugit aspernatur facere omnis.
-     Eos nihil quod natus sed maiores, suscipit ipsam quo adipisci! Itaque nostrum, illum libero atque ipsa enim maxime, debitis fugit aspernatur facere omnis.
+     Eos nihil quod natus sed maiores, suscipit ipsam quo adipisci! Itaque nostrum, illum libero atque ipsa enim maxime, debitis fugit aspernatur facere omnis.</p>
+    <p> laborum delectus facilis deserunt, similique numquam ex! Dolore sapiente et provident est rerum veritatis molestiae repellendus illum. Eos nihil quod natus sed maiores, suscipit ipsam quo adipisci! Itaque nostrum, illum libero atque ipsa enim maxime, debitis fugit aspernatur facere omnis.
     </p>
     <h1>Box colums</h1>
     <div class="cont">
         <div class="b box1"><img src="./c2.jpg" alt="cat"></div>
-        <div class="b box2"><img src="./c3.jpg" alt="cat" ></div>
-        <div class="b box3"> <img src="./c4.jpg" alt="cat"></div>
-        <div class="b box4"><img src="./c5.jpg" alt="cat"></div>
-        <div class="b box5"><img src="./cat5.jpg" alt="cat"></div>
+        <div class="b box2"><img src="./c2.jpg" alt="cat" ></div>
+        <div class="b box3"> <img src="./c2.jpg" alt="cat"></div>
+        <div class="b box4"><img src="./c2.jpg" alt="cat"></div>
+        <div class="b box5"><img src="./c2.jpg" alt="cat"></div>
     </div>
 </body>
 </html>
